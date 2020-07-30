@@ -467,8 +467,11 @@ if (Platform.OS === "android") {
 const styles = StyleSheet.create({
     progressContainer: {
         flex: 1,
-        justifyContent: 'center',
+        justifyContent: 'flex-start',
         alignItems: 'flex-start',
+        borderStyle: 'solid',
+        borderWidth: 1,
+        borderColor: 'blue',
     },
     progressBar: {
         width: 200,
