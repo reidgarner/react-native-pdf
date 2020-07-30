@@ -468,7 +468,7 @@ const styles = StyleSheet.create({
     progressContainer: {
         flex: 1,
         justifyContent: 'center',
-        alignItems: 'center'
+        // alignItems: 'center'
     },
     progressBar: {
         width: 200,
